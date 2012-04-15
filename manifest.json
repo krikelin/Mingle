@@ -1,0 +1,31 @@
+{
+	"AppName":"Mingle",
+	"AppDescription":{
+		"en":"Mingle"
+	},
+	"DefaultTabs":[
+		{
+			"title":{
+				"en":"Overview"
+			},
+			"arguments":"overview"
+		},
+		{
+			"title":{
+				"en":"Fans"
+			},
+			"arguments":"fans"
+		},
+		{
+			"title":{
+				"en":"Feed"
+			},
+			"arguments":"feed"
+		}
+	],
+	"RequiredPermissions":[
+	
+		"http://userserve-ak.last.fm/",
+		"http://ws.audioscrobbler.com/"
+	]
+}

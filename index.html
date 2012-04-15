@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mingle</title>
+		<link rel="stylesheet" href="sp://import/css/api.css" type="text/css" />
+		<link rel="stylesheet" href="sp://import/css/shared.css" type="text/css" />
+		<link rel="stylesheet" href="sp://import/css/adam.css" type="text/css" />
+		<link rel="stylesheet" href="css/mingle.css" type="text/css" />
+		<script src="scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			function init() {
+			
+			}
+		</script>
+	</head>
+	<body onload="sp = getSpotifyApi(1); script = sp.require('scripts/mingle'); script.init();">
+		<header style="display: none" class="box">
+		
+		</header>
+		<section id="none">
+		</section>
+		
+		<section id="overview" class="box vertical">
+			
+			<div id="header" class="box horizontal pad">
+				
+				<div class="sp-image image trackImg" id="trackImg" style="width: 128px; height: 128px;" ></div>
+				<div class="box vertical flex" style="margin-left:10px">
+					<h2 id="trackName"></h2>
+					<div class="text">
+					<p class="sp-text" id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla leo at lacus luctus egestas sit amet imperdiet urna. Proin sit amet imperdiet justo. Mauris varius consequat tincidunt. Mauris eget diam dignissim elit laoreet posuere congue sit amet nunc. Suspendisse feugiat est non enim fermentum fermentum. Mauris imperdiet ornare lorem, vel accumsan diam tincidunt sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat. Mauris bibendum nisl quis risus lacinia vulputate. Duis a neque tellus, nec tristique enim.</p>
+					</div>
+				</div>
+				<div class="right " style="width:25%">
+					<h1>Popularity (approximative)</h1>
+					<div id="similar" class="similar box horizontal">
+						<ul>
+							<li>In ~<span id="numOfPlaylists">0</span> playlists</li>
+							<li>Starred by ~<span id="numOfStarr">0</span> user(s)</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<header><h2>Info</h2></header>
+			<div class="info">
+				
+			</div>
+		</section>
+		<section id="fans" style="display: none">
+			<div id="header" class="topbox box horizontal pad">
+				<div class="sp-image image trackImg" id="trackImg" style="width: 32px; height: 32px;" ></div>
+				<div class="box vertical flex" style="margin-left:10px">
+					<h1 >Fans</h1>
+					<div class="text">
+						<p class="sp-text" id="description">List of Last.FM fans of this track and artist</p>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="box horizontal">
+				<div id="tfans" class="flex seylist"></div>
+				<div id="tafans" class="flex seylist"></div>
+			</div>
+		</section>
+		<section id="feed" style="display: none">
+		
+			<div id="header" class="box horizontal pad">
+				<div class="sp-image image trackImg" id="trackImg" style="width: 32px; height: 32px;" ></div>
+				<div class="box vertical flex" style="margin-left:10px">
+					<h1 >Feed</h1>
+					<div class="text">
+					<p class="sp-text" id="description">Shouts from Last.FM users</p>
+					</div>
+				</div>
+			</div>	
+			<header><h2>Shouts</h2></header>
+			<div id="shouts"></div>
+		</section>
+	</body>
+</html>

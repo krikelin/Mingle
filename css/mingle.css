@@ -1,0 +1,68 @@
+section header h2 {
+	background-image: -webkit-linear-gradient(#5B5B5B,
+		#4B4B4B);
+	border-bottom: 1px solid #292929;
+	border-top: 1px solid #686868;
+	color: #D7D7D7;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 14px;
+	margin: 0;
+	padding: 3px 15px 4px;
+	text-shadow: 0 -1px 0 #404040;
+	height: 16px;
+	
+}
+.entry {
+	padding:20px;
+}
+hr {
+	border: none;
+	border-top: 1px solid #222222;
+	
+	border-bottom: 1px solid #444444;
+	padding: 0px;
+}
+
+meter {
+	background-color:#FFFFFF;
+}
+.seylist .item {
+	padding:10px;
+}
+.seylist .item:nth-child(even) {
+	background-color: #333333;
+	
+}
+.topbox {
+	background-color: #111111;
+}
+.flex {
+	-webkit-box-flex: 1;
+}
+.text, .sp-text {
+	font-family: "Tahoma";
+	font-size: 11px;
+	line-height:14px;
+	text-align: justify;
+}
+.pad {
+	padding: 5px;
+}
+.box {
+	display: -webkit-box;
+	
+}
+.horizontal {
+	-webkit-box-orient: horizontal;
+}
+.vertical {
+	-webkit-box-orient: vertical;
+}
+header {
+}
+
+meter::-webkit-meter-horizontal-bar {
+-webkit-appearance: meter;
+background: #333333;
+}

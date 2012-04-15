@@ -1,0 +1,9 @@
+{
+	"AppName":"Mingle",
+	"AppDescription":{
+		"en":"Mingle"
+	},
+	"RequiredPermissions":[
+		"http://ws.audioscrobbler.com/"
+	]
+}
